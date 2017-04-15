@@ -1,6 +1,6 @@
-name: Apache image
+name: G-WAN-static
 description: |
-  Apache webserver for Rancher
+  G-WAN is a fast webserver
 version: v1
-category: Webserver
+category: Applications
 maintainer: Iosif Nicolae <iosifnicolae2@gmail.com>
