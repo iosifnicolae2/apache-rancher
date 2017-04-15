@@ -1,6 +1,6 @@
 apache-server:
       restart: always
-      image: iosifnicolae2/httpd-git
+      image: iosifnicolae2/httpd-git:latest
       ports:
         - ${port}:80
       environment:
