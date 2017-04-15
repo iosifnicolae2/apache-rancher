@@ -1,6 +1,6 @@
-name: G-WAN-static
+name: PHP-webserver
 description: |
-  G-WAN is a fast webserver
+  PHP web server with Apache and Git
 version: v1
 category: Applications
 maintainer: Iosif Nicolae <iosifnicolae2@gmail.com>
