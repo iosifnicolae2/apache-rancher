@@ -1,4 +1,4 @@
-g-wan-static:
+apache-server:
       restart: always
       image: iosifnicolae2/httpd-git
       ports:
