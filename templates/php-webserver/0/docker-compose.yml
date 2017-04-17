@@ -1,12 +1,11 @@
-services:
-  apache-server:
-        restart: always
-        image: iosifnicolae2/httpd-git:latest
-        ports:
-          - ${port}:80
-        environment:
-          CLONE_GIT: ${git_repo}
-          PORT: ${port}
-          CLONE_PUBLIC_HTML: ${public_html}
-        external_links:
-          - mariadb/MariaDB:MariaDB
+apache-server:
+      restart: always
+      image: iosifnicolae2/httpd-git:latest
+      ports:
+        - ${port}:80
+      environment:
+        CLONE_GIT: ${git_repo}
+        PORT: ${port}
+        CLONE_PUBLIC_HTML: ${public_html}
+      external_links:
+        - mariadb/MariaDB:MariaDB
