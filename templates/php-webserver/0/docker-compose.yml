@@ -8,5 +8,5 @@ services:
           CLONE_GIT: ${git_repo}
           PORT: ${port}
           CLONE_PUBLIC_HTML: ${public_html}
-    external_links:
-      - mariadb/MariaDB:MariaDB
+        external_links:
+          - mariadb/MariaDB:MariaDB
